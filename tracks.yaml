@@ -22,7 +22,7 @@ tracks:
     release_tag: v:{version}
     ros_distro: eloquent
     vcs_type: git
-    vcs_uri: https://github.com/stack-of-tasks/sot-core.git
+    vcs_uri: https://github.com/Rascof/sot-core.git
     version: :{auto}
   foxy:
     actions:
@@ -47,7 +47,7 @@ tracks:
     release_tag: v:{version}
     ros_distro: foxy
     vcs_type: git
-    vcs_uri: https://github.com/stack-of-tasks/sot-core.git
+    vcs_uri: https://github.com/Rascof/sot-core.git
     version: :{auto}
   melodic:
     actions:
@@ -72,7 +72,7 @@ tracks:
     release_tag: v:{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: https://github.com/stack-of-tasks/sot-core.git
+    vcs_uri: https://github.com/Rascof/sot-core.git
     version: :{auto}
   noetic:
     actions:
@@ -97,5 +97,5 @@ tracks:
     release_tag: v:{version}
     ros_distro: noetic
     vcs_type: git
-    vcs_uri: https://github.com/stack-of-tasks/sot-core.git
+    vcs_uri: https://github.com/Rascof/sot-core.git
     version: :{auto}
