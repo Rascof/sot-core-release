@@ -24,7 +24,7 @@ tracks:
     vcs_type: git
     vcs_uri: https://github.com/stack-of-tasks/sot-core.git
     version: :{auto}
-  foxy:    
+  foxy:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
       :{vcs_uri} --name :{name} --output-dir :{archive_dir_path}
@@ -49,7 +49,7 @@ tracks:
     vcs_type: git
     vcs_uri: https://github.com/stack-of-tasks/sot-core.git
     version: :{auto}
-  melodic:    
+  melodic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
       :{vcs_uri} --name :{name} --output-dir :{archive_dir_path}
@@ -74,7 +74,7 @@ tracks:
     vcs_type: git
     vcs_uri: https://github.com/stack-of-tasks/sot-core.git
     version: :{auto}
-  noetic:    
+  noetic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
       :{vcs_uri} --name :{name} --output-dir :{archive_dir_path}
